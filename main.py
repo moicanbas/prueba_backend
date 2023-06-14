@@ -3,7 +3,7 @@ import sqlalchemy
 from sqlalchemy import text, insert
 from fastapi import FastAPI, BackgroundTasks
 import requests
-from models import Contact
+from utils.models import Contact
 from dotenv import load_dotenv
 import os
 
